@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Generated runtime data (Spine AI)
+calibration_profile.json
+calibration_dataset.csv
+posture_model.pkl
+posture_knn.pkl
+posture_knn_dataset.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Model weights (large binaries)
+*.pt
+*.onnx
+*.h5
+
+# Claude Code local settings (keep shared config, ignore per-user overrides)
+.claude/settings.local.json
